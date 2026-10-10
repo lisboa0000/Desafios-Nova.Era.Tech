@@ -1,0 +1,15 @@
+{
+  "name": "desafio-05-jest",
+  "version": "1.0.0",
+  "description": "Suite de testes unitarios com Jest para servicos criticos de uma API",
+  "main": "src/services/userService.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
