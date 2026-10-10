@@ -1,0 +1,16 @@
+{
+  "name": "desafio-docker-api",
+  "version": "1.0.0",
+  "description": "API de tarefas para o Desafio 04 - Docker basico",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "pg": "8.13.1"
+  }
+}
