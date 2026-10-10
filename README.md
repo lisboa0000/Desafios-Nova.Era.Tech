@@ -1,50 +1,106 @@
-🚀 Nova Era Tech Backend Challenges
-Welcome to my Backend Development journey!
+# 🚀 Nova Era Tech — Backend Challenges
 
-This repository contains all projects and challenges completed during the Nova Era Tech Backend JavaScript Formation.
+<p align="center">
+  <strong>My Backend Development Journey</strong>
+  <br />
+  Building, learning, and documenting my evolution as a Backend Developer.
+</p>
 
-The goal of this repository is to document my progress as a Backend Developer while building real-world applications and mastering modern backend technologies.
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-Backend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Node.js-Runtime-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-2563EB?style=for-the-badge" alt="In Progress" />
+</p>
 
-📚 Backend Challenges Roadmap
-Challenge 01 — CRUD with MySQL
-+500 XP
+---
 
-First Backend JS challenge focused on essential SQL database operations.
+## 📌 About the Repository
 
-Topics:
+This repository documents my progress throughout the **Nova Era Tech Backend JavaScript Formation**.
 
-Node.js
-Express
-MySQL
-CRUD Operations
-SQL Queries
-Zod Validation
-Status: ✅ Completed
+It contains practical challenges and projects focused on backend development, database management, RESTful APIs, and software architecture.
 
-Challenge 02 — Basic MongoDB
-+500 XP
+My goal is to strengthen my technical skills by building practical solutions and applying backend development best practices.
 
-Practical introduction to NoSQL databases using collections and documents.
+## 🗺️ Learning Roadmap
 
-Topics:
+### ✅ Challenge 01 — CRUD with MySQL
 
-MongoDB
-Collections
-Documents
-CRUD Operations
-NoSQL Fundamentals
-Status: ✅ Completed
+**Reward:** +500 XP
 
-Challenge 03 — API with NestJS
-+500 XP
+Implementation of essential SQL database operations through a backend application.
 
-Building a structured API using modular architecture and RESTful routes.
+**Technologies & Concepts**
+- Node.js and Express
+- MySQL
+- CRUD operations
+- SQL queries
+- Zod validation
 
-Topics:
+**Status:** `Completed`
 
-NestJS
-Controllers
-Services
-Modules
-Dependency Injection
-Status: ✅ Completed
+---
+
+### ✅ Challenge 02 — Basic MongoDB
+
+**Reward:** +500 XP
+
+A practical introduction to NoSQL databases, focusing on collections, documents, and data manipulation.
+
+**Technologies & Concepts**
+- MongoDB
+- Collections and documents
+- CRUD operations
+- NoSQL fundamentals
+
+**Status:** `Completed`
+
+---
+
+### ✅ Challenge 03 — API with NestJS
+
+**Reward:** +500 XP
+
+Development of a structured API using modular architecture and RESTful endpoints.
+
+**Technologies & Concepts**
+- NestJS
+- Controllers and services
+- Modules
+- Dependency injection
+- REST API architecture
+
+**Status:** `Completed`
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Focus |
+|---|---|
+| JavaScript | Backend programming |
+| Node.js | Server-side runtime |
+| Express | Web application framework |
+| MySQL | Relational databases |
+| MongoDB | NoSQL databases |
+| NestJS | Modular backend architecture |
+| Zod | Data validation |
+
+---
+
+## 🎯 Goals
+
+- [x] Build a CRUD application with MySQL
+- [x] Explore NoSQL concepts with MongoDB
+- [x] Develop a structured API with NestJS
+- [ ] Continue improving backend architecture
+- [ ] Apply clean code and software design principles
+- [ ] Build more real-world backend projects
+
+---
+
+<p align="center">
+  <strong>Every challenge is another step forward. 🚀</strong>
+  <br />
+  Learning by building, improving through practice.
+</p>
