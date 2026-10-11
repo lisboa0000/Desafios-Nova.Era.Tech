@@ -74,6 +74,54 @@ Development of a structured API using modular architecture and RESTful endpoints
 
 ---
 
+### ✅ Challenge 04 — Basic Docker
+
+**Reward:** +500 XP
+
+Containerization of a Node.js API connected to a PostgreSQL database.
+
+**Technologies & Concepts**
+- Docker and Dockerfile
+- Environment variables
+- Express and PostgreSQL
+- Health check endpoint
+
+**Status:** `Completed`
+
+---
+
+### ✅ Challenge 05 — Testing with Jest
+
+**Reward:** +500 XP
+
+Unit test suite covering the business rules of a users service.
+
+**Technologies & Concepts**
+- Jest
+- Unit testing and test coverage
+- Domain errors and payload validation
+- CI pipeline with GitHub Actions
+
+**Status:** `Completed`
+
+---
+
+### ✅ Challenge 06 — SQL Relationships
+
+**Reward:** +500 XP
+
+Orders REST API modeling customers, orders, and products with SQL relationships.
+
+**Technologies & Concepts**
+- MySQL
+- One-to-many and many-to-many relationships
+- Express
+- Joins and transactions
+
+**Status:** `Completed`
+
+---
+
 ### ✅ Challenge 07 — Social Network (MongoDB)
 
 **Reward:** +500 XP
@@ -100,9 +148,12 @@ REST API for a mini social network with users, posts, and comments, exploring Mo
 | Node.js | Server-side runtime |
 | Express | Web application framework |
 | MySQL | Relational databases |
+| PostgreSQL | Containerized relational database |
 | MongoDB | NoSQL databases |
 | NestJS | Modular backend architecture |
 | Zod | Data validation |
+| Docker | Containerization |
+| Jest | Automated testing |
 
 ---
 
@@ -111,6 +162,9 @@ REST API for a mini social network with users, posts, and comments, exploring Mo
 - [x] Build a CRUD application with MySQL
 - [x] Explore NoSQL concepts with MongoDB
 - [x] Develop a structured API with NestJS
+- [x] Containerize an application with Docker
+- [x] Write automated tests with Jest
+- [x] Model relational data with SQL
 - [x] Model a social domain with MongoDB aggregations
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
