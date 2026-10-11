@@ -1,0 +1,30 @@
+﻿
+> desafio06-orders-api@1.0.0 test
+> node test-routes.mjs
+
+OK   criar cliente -> 201 (esperado 201) 
+OK   cliente duplicado -> 409 (esperado 409) 
+OK   cliente sem email -> 400 (esperado 400) 
+OK   listar clientes -> 200 (esperado 200) 
+OK   criar produto 1 -> 201 (esperado 201) 
+OK   criar produto 2 -> 201 (esperado 201) 
+OK   produto invalido -> 400 (esperado 400) 
+OK   listar produtos -> 200 (esperado 200) 
+OK   criar pedido -> 201 (esperado 201) 
+   total = 221 (esperado 221)
+OK   pedido cliente inexistente -> 404 (esperado 404) 
+OK   pedido produto inexistente -> 404 (esperado 404) 
+OK   pedido estoque insuficiente -> 409 (esperado 409) 
+OK   pedido sem itens -> 400 (esperado 400) 
+OK   pedido qtd invalida -> 400 (esperado 400) 
+   estoque mouse apos pedido = 8 (esperado 8)
+OK   listar pedidos -> 200 (esperado 200) 
+OK   buscar pedido -> 200 (esperado 200) 
+OK   pedido inexistente -> 404 (esperado 404) 
+OK   cancelar pedido -> 200 (esperado 200) 
+   estoque mouse apos cancelar = 10 (esperado 10)
+OK   cancelar de novo -> 409 (esperado 409) 
+OK   cancelar inexistente -> 404 (esperado 404) 
+
+Tudo passou
+
