@@ -74,6 +74,24 @@ Development of a structured API using modular architecture and RESTful endpoints
 
 ---
 
+### ✅ Challenge 07 — Social Network (MongoDB)
+
+**Reward:** +500 XP
+
+REST API for a mini social network with users, posts, and comments, exploring MongoDB data modeling and aggregations.
+
+**Technologies & Concepts**
+- MongoDB and the official Node.js driver
+- Embedded vs. referenced modeling (comments embedded, author referenced)
+- Aggregation Pipeline (`$lookup`, `$sort`, `$group`)
+- Array operators (`$push`, `$addToSet`, `$slice`)
+- Indexes validated with `explain` (IXSCAN)
+- Feed ordered by date with hashtag filter, likes, and top hashtags
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -93,6 +111,7 @@ Development of a structured API using modular architecture and RESTful endpoints
 - [x] Build a CRUD application with MySQL
 - [x] Explore NoSQL concepts with MongoDB
 - [x] Develop a structured API with NestJS
+- [x] Model a social domain with MongoDB aggregations
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
