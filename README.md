@@ -1,4 +1,4 @@
-# 🚀 Nova Era Tech — Backend Challenges
+# Nova Era Tech — Backend Challenges
 
 <p align="center">
   <strong>My Backend Development Journey</strong>
@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 About the Repository
+## About the Repository
 
 This repository documents my progress throughout the **Nova Era Tech Backend JavaScript Formation**.
 
