@@ -1,0 +1,35 @@
+OK   login admin -> 200 (esperado 200) 
+OK   registrar aluno -> 201 (esperado 201) 
+OK   registro inválido -> 400 (esperado 400) 
+OK   e-mail duplicado -> 409 (esperado 409) 
+OK   login aluno -> 200 (esperado 200) 
+OK   login senha errada -> 401 (esperado 401) 
+OK   criar curso sem token -> 401 (esperado 401) 
+OK   criar curso como aluno -> 403 (esperado 403) 
+OK   criar curso (admin) -> 201 (esperado 201) 
+OK   criar curso 2 -> 201 (esperado 201) 
+OK   criar curso 3 -> 201 (esperado 201) 
+OK   criar curso 4 -> 201 (esperado 201) 
+OK   criar curso 5 -> 201 (esperado 201) 
+OK   curso inválido -> 400 (esperado 400) 
+OK   atualizar curso -> 200 (esperado 200) 
+OK   detalhe curso -> 200 (esperado 200) 
+OK   curso inexistente -> 404 (esperado 404) 
+OK   listar página 1 (limit 2) -> 200 (esperado 200) 
+OK   meta: total 5, totalPages 3
+OK   listar página 3 -> 200 (esperado 200) 
+OK   última página com 1 item
+OK   filtro categoria + nível -> 200 (esperado 200) 
+OK   filtro retorna 2 avançados
+OK   nível inválido -> 400 (esperado 400) 
+OK   matricular -> 201 (esperado 201) 
+OK   matrícula duplicada -> 409 (esperado 409) 
+OK   matricular sem token -> 401 (esperado 401) 
+OK   minhas matrículas -> 200 (esperado 200) 
+OK   1 matrícula
+OK   alunos do curso como aluno -> 403 (esperado 403) 
+OK   alunos do curso (admin) -> 200 (esperado 200) 
+OK   cancelar matrícula -> 204 (esperado 204) 
+OK   remover curso (admin) -> 204 (esperado 204) 
+
+TODOS OS TESTES PASSARAM

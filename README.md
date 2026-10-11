@@ -140,6 +140,23 @@ REST API for a mini social network with users, posts, and comments, exploring Mo
 
 ---
 
+### ✅ Challenge 08 — Complete REST API
+
+**Reward:** +500 XP
+
+Courses management API consolidating everything learned so far: authentication, permissions, pagination, filters, and standardized errors.
+
+**Technologies & Concepts**
+- Node.js, Express, and SQLite
+- JWT authentication and role-based guards
+- Pagination and filters
+- Zod validation and standardized error format
+- OpenAPI/Swagger documentation and API versioning (`/api/v1`)
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -166,6 +183,7 @@ REST API for a mini social network with users, posts, and comments, exploring Mo
 - [x] Write automated tests with Jest
 - [x] Model relational data with SQL
 - [x] Model a social domain with MongoDB aggregations
+- [x] Build a complete REST API with authentication and documentation
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects

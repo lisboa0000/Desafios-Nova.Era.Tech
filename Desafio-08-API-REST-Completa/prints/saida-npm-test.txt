@@ -1,0 +1,18 @@
+
+> courses-api@1.0.0 test
+> node --test test/api.test.js
+
+✔ auth: validação, duplicidade e credenciais (267.4066ms)
+✔ rotas protegidas e permissões (7.4838ms)
+✔ CRUD de cursos (7.4035ms)
+✔ listagem paginada com filtros (20.4763ms)
+✔ matrículas (6.9119ms)
+✔ erros padronizados: rota inexistente e JSON inválido (3.3851ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 576.1351
