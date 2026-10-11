@@ -1,0 +1,27 @@
+OK   criar usuário -> 201 (esperado 201) 
+OK   criar usuário 2 -> 201 (esperado 201) 
+OK   username duplicado -> 409 (esperado 409) 
+OK   usuário sem username -> 400 (esperado 400) 
+OK   criar post -> 201 (esperado 201) 
+OK   hashtags normalizadas
+OK   criar post 2 -> 201 (esperado 201) 
+OK   post sem conteúdo -> 400 (esperado 400) 
+OK   post autor inexistente -> 404 (esperado 404) 
+OK   post autor inválido -> 400 (esperado 400) 
+OK   comentar -> 201 (esperado 201) 
+OK   comentar 2 -> 201 (esperado 201) 
+OK   comentário sem texto -> 400 (esperado 400) 
+OK   comentar post inexistente -> 404 (esperado 404) 
+OK   curtir -> 201 (esperado 201) 
+OK   curtir de novo (idempotente) -> 200 (esperado 200) 
+OK   feed -> 200 (esperado 200) 
+OK   feed ordenado por data desc
+OK   feed com commentsCount=2, likesCount=1, autor
+OK   feed por hashtag -> 200 (esperado 200) 
+OK   filtro hashtag retorna 2
+OK   feed hashtag inexistente -> 200 (esperado 200) 
+OK   filtro vazio
+OK   top hashtags -> 200 (esperado 200) 
+OK   top hashtag = mongodb (2)
+
+TODOS OS TESTES PASSARAM

@@ -1,0 +1,27 @@
+POST /users  {"name":"Ana","username":"ana"}
+  -> 201  {"_id":"6acadec6b52f625e5195b1c3","name":"Ana","username":"ana","createdAt":"2026-10-11T00:56:38.559Z"}   # criado
+
+POST /users  {"name":"Ana","username":"ana"}
+  -> 409  {"error":"username já em uso"}   # username duplicado
+
+POST /users  {}
+  -> 400  {"error":"Dados inválidos","details":{"name":"obrigatório","username":"obrigatório: 3-30 caracteres [a-z0-9_]"}}   # campos obrigatórios ausentes
+
+POST /posts  {"author":"6acadec6b52f625e5195b1c3","content":""}
+  -> 400  {"error":"Dados inválidos","details":{"content":"obrigatório"}}   # conteúdo vazio
+
+POST /posts  {"author":"123","content":"oi"}
+  -> 400  {"error":"author inválido"}   # autor com id inválido
+
+POST /posts  {"author":"aaaaaaaaaaaaaaaaaaaaaaaa","content":"oi"}
+  -> 404  {"error":"Usuário não encontrado"}   # autor inexistente
+
+POST /posts  {"author":"6acadec6b52f625e5195b1c3","content":"oi #mongo"}
+  -> 201  {"_id":"6acadec6b52f625e5195b1c5","author":"6acadec6b52f625e5195b1c3","content":"oi #mongo","hashtags":["mongo"],"comments":[],"commentsCount":0,"likes":[],"likesCount":0,"createdAt":"2026-10-11T00:56:38.583Z"}   # criado
+
+POST /posts/:id/comments  {"author":"6acadec6b52f625e5195b1c3"}
+  -> 400  {"error":"Dados inválidos","details":{"text":"obrigatório"}}   # comentário sem texto
+
+POST /posts/:id/comments  {"author":"6acadec6b52f625e5195b1c3","text":"x"}
+  -> 404  {"error":"Post não encontrado"}   # post inexistente
+

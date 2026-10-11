@@ -1,0 +1,15 @@
+Posts inseridos: 20000
+
+Índices de posts:
+   _id_ {"_id":1}
+   createdAt_-1 {"createdAt":-1}
+   hashtags_1_createdAt_-1 {"hashtags":1,"createdAt":-1}
+   author_1_createdAt_-1 {"author":1,"createdAt":-1}
+
+Feed geral (sort createdAt desc, limit 10)
+  plano: LIMIT <- FETCH <- IXSCAN(createdAt_-1)
+  documentos examinados: 10 | chaves examinadas: 10 | retornados: 10 | 0 ms
+
+Feed filtrado por hashtag "mongodb"
+  plano: LIMIT <- FETCH <- IXSCAN(hashtags_1_createdAt_-1)
+  documentos examinados: 10 | chaves examinadas: 10 | retornados: 10 | 0 ms
