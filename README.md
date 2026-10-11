@@ -174,6 +174,22 @@ Multi-service environment (API + MongoDB + Mongo Express) started with a single 
 
 ---
 
+### ✅ Challenge 10 — Testing with Mocks
+
+**Reward:** +500 XP
+
+Unit tests for services that depend on a database, an external payment gateway and a queue — with no real infrastructure.
+
+**Technologies & Concepts**
+- Jest mocks and spies (`jest.fn`, `toHaveBeenCalledWith`)
+- Success and failure scenarios with async tests
+- Dependency isolation through contracts and constructor injection
+- Reusable fake data factory and contract tests
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |

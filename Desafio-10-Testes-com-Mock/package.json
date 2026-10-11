@@ -1,0 +1,13 @@
+{
+  "name": "desafio-10-testes-com-mock",
+  "version": "1.0.0",
+  "description": "Testes unitarios com mocks e spies para services que dependem de banco, gateway externo e fila",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
