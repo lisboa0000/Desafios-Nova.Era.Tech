@@ -190,6 +190,23 @@ Unit tests for services that depend on a database, an external payment gateway a
 
 ---
 
+### ✅ Challenge 11 — Spotify-style API
+
+**Reward:** +500 XP
+
+REST API with a richer domain: artists, albums, tracks and playlists, with search, pagination and domain rules.
+
+**Technologies & Concepts**
+- NestJS, TypeORM and SQLite (sql.js)
+- Relational modeling (artist → album → track, playlist ↔ track)
+- Conflict handling (duplicate track in playlist, deletes with dependents)
+- Playlist total duration, search by track/artist and consistent paginated payloads
+- Optional: most-added tracks ranking and genre-based recommendations
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -218,6 +235,7 @@ Unit tests for services that depend on a database, an external payment gateway a
 - [x] Model a social domain with MongoDB aggregations
 - [x] Build a complete REST API with authentication and documentation
 - [x] Orchestrate multi-service environments with Docker Compose
+- [x] Model a rich domain with a Spotify-style API
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
