@@ -1,0 +1,26 @@
+$ docker compose ps
+SERVICE   STATUS                    PORTS
+api       Up 16 seconds (healthy)   0.0.0.0:3009->3000/tcp, [::]:3009->3000/tcp
+db        Up 48 seconds (healthy)   127.0.0.1:27018->27017/tcp
+
+$ curl /health
+{"status":"ok"}
+
+--- 1) cria usuario e post
+{"_id":"6acae5cc105e9610636d8668","name":"Ana","username":"ana_persist","createdAt":"2026-10-11T01:26:36.636Z"}
+{"_id":"6acae5cc105e9610636d8669","author":"6acae5cc105e9610636d8668","content":"Dados persistem no volume #docker","hashtags":["docker"],"comments":[],"commentsCount":0,"likes":[],"likesCount":0,"createdAt":"2026-10-11T01:26:36.869Z"}
+
+$ docker compose down   (remove containers, MANTEM o volume)
+ Container desafio-09-docker-compose-api-1 Removed 
+ Container desafio-09-docker-compose-db-1 Removed 
+ Network desafio-09-docker-compose_backend Removed 
+$ docker volume ls | grep mongo_data
+local     desafio-09-docker-compose_mongo_data
+
+$ docker compose up -d
+ Container desafio-09-docker-compose-db-1 Started 
+ Container desafio-09-docker-compose-db-1 Healthy 
+ Container desafio-09-docker-compose-api-1 Started 
+
+--- 2) feed apos reiniciar (dados continuam)
+{"page":1,"limit":10,"data":[{"_id":"6acae5cc105e9610636d8669","author":{"_id":"6acae5cc105e9610636d8668","name":"Ana","username":"ana_persist"},"content":"Dados persistem no volume #docker","hashtags":["docker"],"commentsCount":0,"likesCount":0,"createdAt":"2026-10-11T01:26:36.869Z","recentComments":[]}]}

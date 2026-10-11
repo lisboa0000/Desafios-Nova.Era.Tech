@@ -1,0 +1,11 @@
+$ docker compose --profile tools ps
+SERVICE         IMAGE                           STATUS                    PORTS
+api             desafio-09-docker-compose-api   Up 45 seconds (healthy)   0.0.0.0:3009->3000/tcp, [::]:3009->3000/tcp
+db              mongo:7                         Up 52 seconds (healthy)   127.0.0.1:27018->27017/tcp
+mongo-express   mongo-express:1.0.2-20          Up 14 seconds             127.0.0.1:8081->8081/tcp
+
+$ docker compose config --services
+db
+api
+mongo-express
+smoke

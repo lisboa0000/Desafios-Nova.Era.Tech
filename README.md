@@ -157,6 +157,23 @@ Courses management API consolidating everything learned so far: authentication, 
 
 ---
 
+### ✅ Challenge 09 — Docker Compose
+
+**Reward:** +500 XP
+
+Multi-service environment (API + MongoDB + Mongo Express) started with a single command.
+
+**Technologies & Concepts**
+- Docker Compose, networks, and volumes
+- Environment variables and `.env` (no hardcoded credentials)
+- Healthchecks and `depends_on` with `service_healthy`
+- Compose profiles (`tools`, `test`)
+- Data persistence across container restarts
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -184,6 +201,7 @@ Courses management API consolidating everything learned so far: authentication, 
 - [x] Model relational data with SQL
 - [x] Model a social domain with MongoDB aggregations
 - [x] Build a complete REST API with authentication and documentation
+- [x] Orchestrate multi-service environments with Docker Compose
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
