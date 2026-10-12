@@ -207,6 +207,21 @@ REST API with a richer domain: artists, albums, tracks and playlists, with searc
 
 ---
 
+### ✅ Challenge 12 — Authentication
+
+**Reward:** +500 XP
+
+Secure API with credential login, JWT sessions and role-based authorization.
+
+**Technologies & Concepts**
+- Password hashing (bcrypt) and JWT with expiration
+- Global guards, `@Public()` and `@Roles()` decorators (`admin` / `member`)
+- Optional: refresh token with rotation and logout
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -236,6 +251,7 @@ REST API with a richer domain: artists, albums, tracks and playlists, with searc
 - [x] Build a complete REST API with authentication and documentation
 - [x] Orchestrate multi-service environments with Docker Compose
 - [x] Model a rich domain with a Spotify-style API
+- [x] Secure APIs with authentication and role-based authorization
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
