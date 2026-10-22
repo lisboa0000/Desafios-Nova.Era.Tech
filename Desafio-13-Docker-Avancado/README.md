@@ -106,3 +106,17 @@ docker scout cves desafio13-api:prod
 - container `healthy`, executando como `uid=1000(node)`, `NODE_ENV=production`
 - `GET /me` sem token retorna 401; login do admin retorna os tokens
 - Jest nao existe em `node_modules` da imagem final
+
+## Evidencias (`prints/`)
+
+1. `01-tamanho-imagens.png`: comparacao entre a imagem inicial (1,95 GB) e a otimizada (413 MB), com o segundo build inteiro em cache.
+2. `02-container-healthy.png`: `docker compose ps` com o container `healthy`.
+3. `03-api-funcionando.png`: login do admin retornando o token Bearer.
+4. `04-seguranca.png`: usuario `uid=1000(node)`, `NODE_ENV=production`, Jest ausente da imagem e sistema de arquivos somente leitura.
+5. `05-logs.png`: logs da aplicacao via `docker compose logs`.
+
+![Tamanho das imagens](prints/01-tamanho-imagens.png)
+![Container healthy](prints/02-container-healthy.png)
+![API funcionando](prints/03-api-funcionando.png)
+![Seguranca](prints/04-seguranca.png)
+![Logs](prints/05-logs.png)
