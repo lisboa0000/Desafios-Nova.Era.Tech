@@ -250,7 +250,7 @@ Production-like containerization of the authentication API: smaller, safer and r
 | MongoDB | NoSQL databases |
 | NestJS | Modular backend architecture |
 | Zod | Data validation |
-| Docker | Containerization |
+| Docker | Containerization, multi-stage builds and hardening |
 | Jest | Automated testing |
 
 ---
@@ -268,6 +268,7 @@ Production-like containerization of the authentication API: smaller, safer and r
 - [x] Orchestrate multi-service environments with Docker Compose
 - [x] Model a rich domain with a Spotify-style API
 - [x] Secure APIs with authentication and role-based authorization
+- [x] Optimize Docker images for production (multi-stage, non-root, slim)
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
