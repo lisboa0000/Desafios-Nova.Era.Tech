@@ -1,0 +1,18 @@
+services:
+  api:
+    build:
+      context: .
+      target: build
+    image: desafio13-api:dev
+    command: ["npm", "run", "start:dev"]
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+    ports:
+      - "${API_PORT:-3000}:3000"
+    volumes:
+      - ./src:/app/src
+      - dev_data:/app/data
+
+volumes:
+  dev_data:

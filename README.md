@@ -222,6 +222,22 @@ Secure API with credential login, JWT sessions and role-based authorization.
 
 ---
 
+### ✅ Challenge 13 — Advanced Docker
+
+**Reward:** +500 XP
+
+Production-like containerization of the authentication API: smaller, safer and reproducible images.
+
+**Technologies & Concepts**
+- Multi-stage build and slim Alpine image (1.95 GB down to 413 MB)
+- Non-root user, read-only filesystem, dropped capabilities
+- Layer cache strategy, healthcheck and log rotation
+- Separate dev and prod compose files
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
