@@ -238,6 +238,23 @@ Production-like containerization of the authentication API: smaller, safer and r
 
 ---
 
+### ✅ Challenge 14 — Multi-Service Architecture
+
+**Reward:** +500 XP
+
+Backend split into independent services (`user-service`, `catalog-service` and a `gateway-api`) that communicate over HTTP.
+
+**Technologies & Concepts**
+- Service decomposition with a separate domain and data per service
+- Aggregated endpoint composed by the gateway
+- Timeouts, graceful degradation and a simple circuit breaker
+- Structured JSON logs with service name and request id propagation
+- Docker Compose orchestration with healthchecks
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -269,6 +286,7 @@ Production-like containerization of the authentication API: smaller, safer and r
 - [x] Model a rich domain with a Spotify-style API
 - [x] Secure APIs with authentication and role-based authorization
 - [x] Optimize Docker images for production (multi-stage, non-root, slim)
+- [x] Split a system into multiple communicating services
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
