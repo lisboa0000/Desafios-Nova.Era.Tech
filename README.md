@@ -255,6 +255,25 @@ Backend split into independent services (`user-service`, `catalog-service` and a
 
 ---
 
+### ✅ Challenge 15 — Final Project
+
+**Reward:** +500 XP
+
+Marketplace backend consolidating the whole formation: layered architecture, SQL persistence, authentication with roles, tests and a full Docker environment.
+
+**Technologies & Concepts**
+- NestJS, TypeScript, TypeORM and MySQL with versioned migrations
+- Five entities (users, categories, products, orders, order items) and full CRUD for categories and products
+- JWT authentication with `admin` and `customer` roles
+- Transactional checkout with atomic stock control, order state machine (pay, ship, cancel)
+- Input validation, centralized error handling, structured logs and health check
+- Jest unit tests with mocks plus end-to-end tests, with no external dependencies
+- Docker Compose (API + MySQL), seed script and complete documentation
+
+**Status:** `Completed`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Focus |
@@ -287,6 +306,7 @@ Backend split into independent services (`user-service`, `catalog-service` and a
 - [x] Secure APIs with authentication and role-based authorization
 - [x] Optimize Docker images for production (multi-stage, non-root, slim)
 - [x] Split a system into multiple communicating services
+- [x] Deliver a complete portfolio backend project (final project)
 - [ ] Continue improving backend architecture
 - [ ] Apply clean code and software design principles
 - [ ] Build more real-world backend projects
